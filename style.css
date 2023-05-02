@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #020e26;
+  font-family: "Roboto";
+}
+h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.hidden {
+  display: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto 320px;
+  gap: 24px;
+  max-width: 1320px;
+}
+img,
+video {
+  height: auto;
+  width: 100%;
+}
+.video-wrap button {
+  font-size: 16px;
+  font-family: inherit;
+  color: #ffffff;
+  background-color: #3546f0;
+  padding: 12px 24px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.video-wrap button i {
+  font-size: 18px;
+  margin-right: 8px;
+}
+.screenshots-wrap .list {
+  display: grid;
+  gap: 8px;
+}
